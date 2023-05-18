@@ -27,11 +27,11 @@ void prompt(char *str)
 ///////////
 int input()
 {
-	char *c = calloc(16,sizeof(char));
+	char *sierra = malloc(sizeof(gets(sierra)));
 	int c_prime = 0;
 	
 	
-	gets(c);
+	gets(sierra);
 		
 	int c_n = 0;
 		
@@ -49,7 +49,7 @@ int input()
 			power *= 10;
 		}
 			
-		c_prime += (c[i] - 48) * power;
+		c_prime += (sierra[i] - 48) * power;
 	}
 	
 	return c_prime;
