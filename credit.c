@@ -131,7 +131,7 @@ void alphaF(char *sierra_0)
 		}
 		if (sierra_0[0] == '5')
 		{
-			if (sierra_0[1] - 48 > 1 & sierra_0[1] - 48 < 6)
+			if (sierra_0[1] - 48 > 0 & sierra_0[1] - 48 < 6)
 			{
 				print("MASTERCARD");
 			}
